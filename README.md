@@ -99,7 +99,7 @@ username=Barbara&password=password
 - POST
 
 18. Which header expresses the client's preference for an encrypted response?
-- Upgrade-Insecuer-Requests: 1
+- Upgrade-Insecure-Requests: 1
 19. Does the request have a user session associated with it?
 - No, the session is not re-establish yet.
 20. What kind of data is being sent from this request body?
