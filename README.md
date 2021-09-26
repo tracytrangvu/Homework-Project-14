@@ -20,9 +20,8 @@ Answer the following questions about the HTTP request and response process.
 - Headers, status line and body
 
 5. Which number class of status codes represents errors?
-- 
-
-6. What are the two most common request methods that a security professional will encounter?
+- [400..499] :: Client errors && [500..599] :: Server errors
+7. What are the two most common request methods that a security professional will encounter?
 
 7. Which type of HTTP request method is used for sending data?
 
