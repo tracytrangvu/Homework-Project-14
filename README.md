@@ -21,27 +21,36 @@ Answer the following questions about the HTTP request and response process.
 
 5. Which number class of status codes represents errors?
 - [400..499] :: Client errors && [500..599] :: Server errors
-7. What are the two most common request methods that a security professional will encounter?
+6. What are the two most common request methods that a security professional will encounter?
+- GET and POST requests
 
 7. Which type of HTTP request method is used for sending data?
+- POST Request
 
 8. Which part of an HTTP request contains the data being sent to the server?
+- Request Body
 
 9. In which part of an HTTP response does the browser receive the web code to generate and style a web page?
+- Response body
 
 #### Using curl
 
 Answer the following questions about `curl`:
 
 10. What are the advantages of using `curl` over the browser?
+- Its ability to be flexible and complete complex tasks.
 
 11. Which `curl` option is used to change the request method?
+- -X --request
 
 12. Which `curl` option is used to set request headers?
+- -H --header
 
 13. Which `curl` option is used to view the response header?
+-curl -i command
 
 14. Which request method might an attacker use to figure out which HTTP requests an HTTP server will accept?
+- Options
 
 #### Sessions and Cookies
 
@@ -50,6 +59,7 @@ Recall that HTTP servers need to be able to recognize clients from one another. 
 Answer the following questions about sessions and cookies:
 
 15. Which response header sends a cookie to the client?
+- Set-Cookie
 
     ```HTTP
     HTTP/1.1 200 OK
@@ -58,6 +68,7 @@ Answer the following questions about sessions and cookies:
     ```
 
 16. Which request header will continue the client's session?
+- Cookie
 
     ```HTTP
     GET /cart HTTP/1.1
@@ -85,12 +96,14 @@ username=Barbara&password=password
 ```
 
 17. What is the request method?
+- POST
 
 18. Which header expresses the client's preference for an encrypted response?
-
+- Upgrade-Insecuer-Requests: 1
 19. Does the request have a user session associated with it?
-
+- No, the session is not re-establish yet.
 20. What kind of data is being sent from this request body?
+- Login credentials
 
 **HTTP Response**
 
@@ -112,14 +125,19 @@ X-XSS-Protection: 1; mode=block
 ```
 
 21. What is the response status code?
+- 200 
 
 22. What web server is handling this HTTP response?
+- Apache Webserver
 
 23. Does this response have a user session associated to it?
+- Yes- SessionID=5
 
 24. What kind of content is likely to be in the [page content] response body?
+- Detail of the page configuration
 
 25. If your class covered security headers, what security request headers have been included?
+- 
 
 #### Monoliths and Microservices
 
