@@ -134,7 +134,7 @@ X-XSS-Protection: 1; mode=block
 - Yes- SessionID=5
 
 24. What kind of content is likely to be in the [page content] response body?
-- Detail of the page configuration
+- Text, webcode or HTML
 
 25. If your class covered security headers, what security request headers have been included?
 - 
