@@ -171,6 +171,6 @@ Answer the following questions about multi-container deployment:
 - INSERT INTO[column] VALUES[values]
 
 33. Why would we never run `DELETE FROM <table-name>;` by itself?
-- This will recusively delete all values in the selected row
+- It should have where clause which contains the conditions to delete. If not, all records will be deleted.
 
 
