@@ -11,12 +11,16 @@ Answer the following questions about the HTTP request and response process.
 - Client-Server Architecture
 
 2. What are the different parts of an HTTP request? 
+- Request line, header and body.
 
 3. Which part of an HTTP request is optional?
+- Request body
 
 4. What are the three parts of an HTTP response?
+- Headers, status line and body
 
 5. Which number class of status codes represents errors?
+- 
 
 6. What are the two most common request methods that a security professional will encounter?
 
